@@ -1,4 +1,4 @@
-import 'package:design_patterns/chain_of_responsibility/chain_of_responsibility.dart';
+import 'package:design_patterns/template_method/template_method_example.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ChainOfResponsibility(),
+      home: const TemplateMethodExample(),
     );
   }
 }
